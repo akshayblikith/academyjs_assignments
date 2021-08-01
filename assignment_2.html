@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <img src="https://www.thesprucepets.com/thmb/C9_XCUE3SNNQs0Y274cHY-n3c_o=/1333x1000/smart/filters:no_upscale()/tawny-owl-56a09ffd3df78cafdaa36328.jpg"
+            alt="owl" width="100" height="100">
+        <h1>Section 2 - Basic HTML Elements</h1>
+    </center>
+    <p>
+        Technically, you can structure your content with just the div tag. But you should remember that your content is
+        not only consumed by humans, but also by software tools like crawlers. Using tags to specify semantic
+        information helps these tools understand your content better. For example, using keywords in heading tags is a
+        known technique to improve your site's SEO.
+    </p>
+    <p>
+        We will learn about different HTML elements and their use cases in this chapter.
+    </p>
+    <h2>
+        Block-Level and Inline-Level Elements
+    </h2>
+    <p>In HTML, elements are categorized as either block-level elements or inline-level elements.</p>
+    <p>A block-level element occupies 100% width of the parent element. Its height is equal to its content. Further, the
+        browser adds a newline before and after the block. These are the default styles for a block-level element, but
+        you can modify them using CSS.</p>
+    <p>To visualize a block-level element, open the following document in your browser:</p>
+    <p>Block-level elements can appear only inside the `body` element. You cannot use it inside the `head` element. Some
+        examples of block-level elements include: div, code, blockquote, address, article, form, and so on.
+    </p>
+    <p>An inline-level element on the other hand occupies both the width and the height equal to its content. It does
+        not start a newline. Again, these are the default styles for an inline-level element, but you can modify them
+        using CSS.
+    </p>
+    <p>In general, you should put only inline-level elements or data in inline-level elements. You should not put
+        block-level elements.
+    </p>
+    <h2>Paragraph</h2>
+    <p>The `p` element creates a paragraph of text. It is a block-level element. You can add any inline-level elements
+        like `span` and `a`. You cannot add block-level elements or nest paragraphs.</p>
+    <p>Example</p>
+    <h2>Line Break</h2>
+    <p>The `br` element creates a line break. Can you guess if it is an inline-level element or a block-level element?
+        You can use the shorthand syntax with this element.</p>
+    <h2>Headings</h2>
+    <p>There are six heading tags: h1, h2, h3, h4, h5, h6. By default, the h1 element is the biggest. The font size is
+        decreased as the number increases. Similarly, the importance of the headings decreases from h1 to h6. In other
+        words, the h1 element is given the highest importance, while the h6 element is given the least importance.</p>
+    <p>The organization of your headings is important for improving your site’s SEO.</p>
+    <h2>Italics</h2>
+    <p>The `i` element is used to mark text as idiomatic. The text is rendered in italics.</p>
+    <h2>Bold</h2>
+    <p>The `b` element is used to mark text to draw the reader’s attention. Before HTML4, this element was used to style
+        text in boldface. However, you should use the font-weight CSS property for this.</p>
+    <h2>The Anchor Element</h2>
+    <p>When the user clicks on the hyperlink, the link opens in the current browser tab by default. To change this
+        behavior, you need to specify the `target` attribute like this:
+        <code><a href=”https://academyjs.com” target=”_blank”>Open AcademyJS<a></code>
+    </p>
+    <h2>Assignments</h2>
+    <ul>
+        <li>Read the notes</li>
+        <li>Execute and play around with the examples</li>
+        <li>Convert the notes into an HTML document. Use the most appropriate elements. You do not have to worry about
+            the styles right now. The idea of this assignment is to help you internalize the appropriate usage of
+            elements.</li>
+        <li>Is `br` an inline-level element or a block-level element?</li>
+        <li>Learn about `em`, `mark`, `ins`, `del`, `sup`, `sub`, `small`, and `i` elements.</li>
+        <li>Learn about `audio` and `video` elements.</li>
+    </ul>
+</body>
+
+</html>
