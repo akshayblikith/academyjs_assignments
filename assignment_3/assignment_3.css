@@ -1,0 +1,24 @@
+body {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+#name, #contact_details {
+    text-align: center;
+}
+h4 {
+    text-align: center;
+}
+.title {
+    font-weight: bold;
+}
+.education, .skills {
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.projects, .awards {
+    line-height: 25px;
+    margin-top: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
